@@ -1,0 +1,6 @@
+.idea
+node_modules
+yarn.lock
+dist
+err_log.txt
+demo/upload

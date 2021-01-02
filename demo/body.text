@@ -1,0 +1,32 @@
+{
+  avatar: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 1243441, 文件大小，单位是字节
+    path: 'upload\\upload_9425e79e5df032738ceecf689ead69ab.png',
+    name: 'Capture001.png',
+    type: 'image/png',
+    hash: null,
+    lastModifiedDate: 2020-12-28T02:15:35.113Z,
+    _writeStream: WriteStream {
+      _writableState: [WritableState],
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      path: 'upload\\upload_9425e79e5df032738ceecf689ead69ab.png',
+      fd: 3,
+      flags: 'w',
+      mode: 438,
+      start: undefined,
+      autoClose: true,
+      pos: undefined,
+      bytesWritten: 1243441,
+      closed: false,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kCapture)]: false,
+      [Symbol(kIsPerformingIO)]: false
+    },
+    [Symbol(kCapture)]: false
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form表单文件,图片提交</title>
+</head>
+<body>
+<!-- 
+  有文件或图片的表单提交
+  1 method 必须是post
+  2 必须将表单的enctype 设置为 enctype="multipart/form-data",
+  否则文件不会传输
+ -->
+	<form action="/" method="post" enctype="multipart/form-data">
+      姓名：<input type="text" name="name">
+      <br>
+      年龄：<input type="text" name="age">
+      <br>
+      头像：<input type="file" name="avatar">
+      <br>
+      <input type="submit" value="提交">
+	</form>
+</body>
+</html>
